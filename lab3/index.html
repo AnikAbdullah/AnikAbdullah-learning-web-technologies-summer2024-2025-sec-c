@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab task 3</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="Name">Name</label></td>
+        </tr>
+        <tr>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+      <hr />
+      <table>
+        <tr>
+          <td><label for="Email">Email</label></td>
+        </tr>
+        <tr>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+      <hr />
+
+      <table>
+        <tr>
+          <td>
+            <fieldset
+              style="width: fit-content; margin-left: 0px; padding: 10px"
+            >
+              <legend>Gender</legend>
+              <input type="radio" />
+              <label for="male">Male</label>
+              <input type="radio" />
+              <label for="female">Female</label>
+              <input type="radio" />
+              <label for="other">Other</label>
+            </fieldset>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+
+      <hr />
+      <fieldset style="width: fit-content; margin-left: 0px; padding: 10px">
+        <legend><h4>Date of birth</h4></legend>
+        <table>
+          <tr>
+            <td><label for="day">dd</label></td>
+            <td><label for="day">mm</label></td>
+            <td><label for="day">yy</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" name="day" size="2" maxlength="2" /> /</td>
+            <td><input type="text" name="month" size="2" maxlength="2" /> /</td>
+            <td><input type="text" name="year" size="4" maxlength="4" /></td>
+          </tr>
+        </table>
+        <hr
+          style="
+            margin-top: 10px;
+            height: 1px;
+            background-color: black;
+            border: none;
+          "
+        />
+        <input type="submit" value="Submit" />
+      </fieldset>
+
+      <hr />
+      <table>
+        <tr>
+          <td>
+            <fieldset
+              style="width: fit-content; margin-left: 0px; padding: 10px"
+            >
+              <legend>Degree</legend>
+              <input type="checkbox" name="ssc" value="SSC" />
+              <label for="ssc">SSC</label>
+              <input type="checkbox" name="hsc" value="HSC" />
+              <label for="hsc">HSC</label>
+              <input type="checkbox" name="bsc" value="BSc" />
+              <label for="bsc">BSc</label>
+            </fieldset>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+      <hr />
+      <label>Blood Group</label>
+      <select>
+        <option vale="A+">A+</option>
+        <option vale="A-">A-</option>
+        <option vale="B+">B+</option>
+        <option vale="O+">O+</option>
+      </select>
+      <hr
+        style="
+          margin-left: 0;
+          width: 135px;
+          height: 1px;
+          background-color: black;
+        "
+      />
+      <input type="submit" value="Submit" /><br />
+      <hr />
+      <fieldset style="width: fit-content; margin-left: 0px; padding: 10px">
+        <legend>Profile Picture</legend>
+        <table>
+          <tr>
+            <td><label>ID</label></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Picture</label></td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <hr
+                style="
+                  margin-top: 10px;
+                  height: 1px;
+                  background-color: black;
+                  border: none;
+                "
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
